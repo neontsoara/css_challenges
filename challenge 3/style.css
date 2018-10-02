@@ -1,0 +1,65 @@
+
+/* Box */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #ccc;
+}
+
+/* Article */
+
+article {
+  width: 210mm;
+  height: 297mm;
+  margin: 20px auto;
+  position: relative;
+
+}
+
+/* Physical Address */
+
+address {
+  position: absolute;
+  bottom: 8mm;
+  right: 20mm;
+}
+
+/* h1 headings */
+h1 {
+  position: absolute;
+  top: 12mm;
+  left: 20mm;
+  width: 128px;
+  height: 128px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 44px 0;
+  color: white;
+  text-shadow: 1px 1px 1px grey;
+}
+
+article {
+
+  background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.2)),
+              url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/70/31/8557b65652120ea.jpg) no-repeat left top,
+              url(https://www.formazione-sanitaria.com/wp-content/uploads/2018/09/smoke-2437886_960_720.jpg) no-repeat left bottom;
+  background-color: grey;
+  border-top: 1mm solid black;
+  border-bottom: 1mm solid black;
+}
+
+h1 {
+  background-image: url(https://pbs.twimg.com/profile_images/819790413653381121/EtCYHYcT.jpg);
+  filter: drop-shadow(3px 3px 3px black);
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px grey;
+}
+#name {color: blue;}

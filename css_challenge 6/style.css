@@ -1,0 +1,20 @@
+h1 {
+  color:#bf132a;
+}
+
+p {
+  color: #bf132a;
+  font-size: 18px;
+}
+
+.background {
+  background-image: url(http://thebiznizblog.co.za/wp-content/uploads/2017/08/The-Bizniz-Hustle-Lenneth-Bowers-Perseusx-Streetwear-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 850px;
+}
+
+.Footer {
+  background-color: black;
+  font-size: 20px;
+}
